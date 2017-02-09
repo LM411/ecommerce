@@ -1,9 +1,9 @@
 <?php
 	// Define variables to store our username
-	$user = 'nsgplesotho';
-	$pass = 'makoti111111';
+	$user = 'root';
+	$pass = '';
 	$dbserver = 'localhost';
-	$dbname = 'nsgplesotho_shoppingcart';
+	$dbname = 'shoopingcart';
 
 	// Create a connection to the MySql server
 	$conn = mysql_connect($dbserver, $user, $pass);

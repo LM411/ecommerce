@@ -7,7 +7,7 @@
 $db_host		= 'localhost';
 $db_user		= 'root';
 $db_pass		= '';
-$db_database	= 'shoopingcart';
+$db_database	= 'shoopingcart'; 
 
 /* End config */
 
@@ -15,7 +15,6 @@ $db_database	= 'shoopingcart';
 
 $link = mysqli_connect($db_host,$db_user,$db_pass) or die('Unable to establish a DB connection');
 
-mysql_select_db($db_database,$link);
-mysql_query("SET names UTF8");
+mysqli_select_db($link,$db_database);
 
 ?>
